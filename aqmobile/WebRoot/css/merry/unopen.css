@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background:#fc1a15;
+}
+
+.whole {
+	position: relative;
+	width: 100%;
+}
+
+
+.excrete {
+	position: absolute;
+	width:100%;
+	top:415px;
+}
+
+
+.excreteFriend {
+	position: absolute;
+	width:100%;
+	top:370px;
+}
+
+.excreteFriend span {
+	position: absolute;
+	width:70%;
+	left:15%;
+	font-size:18px;
+	font-weight:bold;
+	color:#133383;
+	text-align:center;
+}
+
+.excrete span {
+	position: absolute;
+	width:70%;
+	left:14%;
+	font-size:18px;
+	font-weight:bold;
+	color:#133383;
+	text-align:center;
+}
+
+.friendbtnun {
+	position: absolute;
+	top:45px;
+	left:25%;
+	width:50%;
+	height:40px;
+	background:#dd1f2f;
+    border:0px;
+    -webkit-border-radius: 20px;
+    font-size:18px;
+    color:#ffffff;
+} 
+
+.friendbtn {
+	position: absolute;
+	top:45px;
+	left:25%;
+	width:50%;
+	height:40px;
+	background:#dd1f2f;
+    border:0px;
+    -webkit-border-radius: 20px;
+    font-size:18px;
+    color:#ffffff;
+} 
+
+.prize {
+	position: absolute;
+	width:70%;
+	left:18%;
+	top:380px;
+}
+
+.prize span{
+	font-size:18px;
+	color:#dfd315;
+	font-weight:bold;
+}
+
+.iWant {
+	position: absolute;
+	top:100px;
+	left:25%;
+	width:50%;
+	height:40px;
+	background:#dd1f2f;;
+    border:0px;
+    -webkit-border-radius: 20px;
+    font-size:18px;
+    color:#ffffff;
+}
+
+.pop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 680px;
+	background: rgba(0, 0, 0, .6);
+	z-index: 9;
+	background: rgba(0, 0, 0, .6);
+	z-index: 9;
+}
+
+.share_friend {
+	position: relative;
+	width: 320px;
+	margin: 0px auto; 
+}
+
+.prizeShow{
+	position: relative;
+	width: 80%;
+	left:15%;
+	top:100px;
+}
+
+.prizeContent {
+	position: absolute;
+	left:10%;
+}
+
+.prizeContentSty{
+	width:70%;
+	text-align:center;
+	font-size:24px;
+	color:#ffffff;
+}
+.none {
+	display:none;
+}
+
