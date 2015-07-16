@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	list-style:none;  
+}
+
+hr {
+	FILTER: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10);
+	width:80%;
+	color:#987cb9;
+	SIZE:1;
+}
+.banner {
+	position: relative;
+	width: 100%;
+	height: 220px;
+	background-size:contain;   
+	background-image: url(../../files/images/groupbuy/banner.png);
+	background-repeat: no-repeat;
+}
+
+.center {
+	position: relative;
+	width:100%;
+}
+
+.title {
+	position: relative;
+	width:100%;
+	height:50px;
+}
+
+.title span {
+	position: absolute;
+	top:10px;
+	left:30%;
+	font-size:24px;
+	font-weight:bold;
+	color:red;
+}
+
+.content {
+	position: relative;
+	width:100%;
+	height:200px;
+}
+
+.left {
+	position: relative;
+	width:90%;
+	height:20px;
+}
+
+
+.left-img {
+	position: absolute;
+	width:32%;
+	left:10%;
+}
+
+.price{
+	position: relative;
+	height:20px;
+	width:50%;
+	left:35%;
+	text-align:center;
+}
+
+.price button {
+	width:70%;
+	-webkit-border-radius: 0px;
+	border-color: red;
+	background:red;
+	height:25px;
+	font-size:14px;
+	color:#ffffff;
+}
+
+.left-content {
+	position: absolute;
+	top:20px;
+	left:43%;
+}
+
+.left-content ul {
+	position: relative;
+	width:100%;
+	padding:0px; 
+	margin:0px;
+}
+
+.left-content li {
+	font-size:16px;
+	list-style-type:none;  
+	line-height:120%;
+}
+
+.li-font {
+	font-size:14px;
+	color:red;
+	font-weight:bold;
+}
+
+
+
+.describe {
+	position: relative;
+	width:90%;
+}
+
+.describe span {
+	position: relative;
+	left:4%;
+	font-size:24px;
+	color:red;
+	font-weight:bold;
+}
+
+.descrieb ul {
+	position: relative;
+	width:100%;
+	padding:0px; 
+	margin:0px;
+}
+.describe li {
+	font-size:16px;
+	text-indent:30px;
+	list-style-type:none;  
+	line-height:150%;
+}
+
+.describe_warp {
+	position: relative;
+	width:90%;
+}
+
+
+.describe_warp img{
+	position: relative;
+	width:90%;
+	left:10%;
+}

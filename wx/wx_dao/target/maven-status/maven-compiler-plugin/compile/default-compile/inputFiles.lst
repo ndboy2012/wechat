@@ -1,0 +1,16 @@
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\common\dao\IGenericBaseCommonDao.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\datasource\DataSourceType.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\common\util\ExceptionUtil.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\datasource\DataSourceContextHolder.java
+E:\java code\wx\wx_dao\src\main\java\org\yelp\dao\register\RegisterDaoI.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\common\util\AjaxJson.java
+E:\java code\wx\wx_dao\src\main\java\org\yelp\dao\impl\register\RegisterDao.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\common\dao\impl\GenericBaseCommonDao.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\common\dao\ICommonDao.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\exception\MyExceptionHandler.java
+E:\java code\wx\wx_dao\src\main\java\org\yelp\entity\register\RegisterEntity.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\common\service\impl\CommonServiceImpl.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\exception\BusinessException.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\common\service\CommonServiceI.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\common\dao\impl\CommonDao.java
+E:\java code\wx\wx_dao\src\main\java\org\jeecgframework\core\datasource\DynamicDataSource.java

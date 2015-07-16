@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.yelp</groupId>
+    <artifactId>wx</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+ 
+  <artifactId>wechat</artifactId>
+  <packaging>war</packaging>
+ 
+  <name>wechat Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>org.yelp</groupId>
+      <artifactId>wx_web</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.yelp</groupId>
+      <artifactId>wx_wechat</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>wechat</finalName>
+	<plugins>
+	  <plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>tomcat-maven-plugin</artifactId>
+				<version>1.1</version>
+				<configuration>
+					<path>/wechat</path>
+					<port>8080</port>
+					<uriEncoding>UTF-8</uriEncoding>
+					<url>http://localhost:8080/manager/html</url>
+					<server>tomcat7</server>
+				</configuration>
+		</plugin>
+	</plugins>
+  </build>
+</project>
