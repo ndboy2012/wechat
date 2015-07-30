@@ -1,0 +1,16 @@
+[INFO][2015-01-16 10:44:59,223][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg---Code----Generation----[单表模型:tb_mctax_upper_admin_info]------- 生成中。。。
+[INFO][2015-01-16 10:45:00,768][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg----Code----Generation-----[单表模型：tb_mctax_upper_admin_info]------ 生成完成。。。
+[INFO][2015-01-16 12:17:18,565][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg---Code----Generation----[单表模型:tb_mctax_upper_admin_info]------- 生成中。。。
+[INFO][2015-01-16 12:17:20,546][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg----Code----Generation-----[单表模型：tb_mctax_upper_admin_info]------ 生成完成。。。
+[INFO][2015-01-16 13:34:34,794][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg---Code----Generation----[单表模型:tb_mctax_common_admin_info]------- 生成中。。。
+[INFO][2015-01-16 13:34:36,590][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg----Code----Generation-----[单表模型：tb_mctax_common_admin_info]------ 生成完成。。。
+[INFO][2015-01-16 13:42:07,502][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg---Code----Generation----[单表模型:tb_mctax_district_info]------- 生成中。。。
+[INFO][2015-01-16 13:42:08,719][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg----Code----Generation-----[单表模型：tb_mctax_district_info]------ 生成完成。。。
+[INFO][2015-01-16 19:40:43,875][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg---Code----Generation----[单表模型:tb_mctax_item_info]------- 生成中。。。
+[INFO][2015-01-16 19:40:45,873][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg----Code----Generation-----[单表模型：tb_mctax_item_info]------ 生成完成。。。
+[INFO][2015-01-17 16:44:16,372][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg---Code----Generation----[单表模型:tb_mctax_leave_message]------- 生成中。。。
+[INFO][2015-01-17 16:44:18,713][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg----Code----Generation-----[单表模型：tb_mctax_leave_message]------ 生成完成。。。
+[INFO][2015-01-17 20:50:22,247][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg---Code----Generation----[单表模型:tb_mctax_user_info]------- 生成中。。。
+[INFO][2015-01-17 20:50:23,404][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg----Code----Generation-----[单表模型：tb_mctax_user_info]------ 生成完成。。。
+[INFO][2015-01-17 20:58:29,865][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg---Code----Generation----[单表模型:tb_mctax_user_info]------- 生成中。。。
+[INFO][2015-01-17 20:58:30,583][org.jeecgframework.codegenerate.generate.CodeGenerate]----jeecg----Code----Generation-----[单表模型：tb_mctax_user_info]------ 生成完成。。。

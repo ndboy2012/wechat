@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd"
+	xmlns:tx="http://www.springframework.org/schema/tx">
+
+
+	<!-- Hibernate MiniDao -->
+	<bean id="miniDaoHiberCommonDao"
+		class="org.jeecgframework.minidao.hibernate.dao.impl.GenericBaseCommonDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<!-- MiniDao动态代理类 -->
+	<bean id="miniDaoHandler" class="org.jeecgframework.minidao.aop.MiniDaoHandler">
+		<property name="jdbcTemplate" ref="jdbcTemplate"></property>
+		<!-- 是使用什么字母做关键字Map的关键字 默认值origin 即和sql保持一致,lower小写(推荐),upper 大写 -->
+		<property name="keyType" value="lower"></property>
+		<!-- 格式化sql -->
+		<property name="formatSql" value="false"></property>
+		<!-- 输出sql -->
+		<property name="showSql" value="false"></property>
+	</bean>
+
+	<!-- 注册MiniDao接口 -->
+	<bean class="org.jeecgframework.minidao.factory.MiniDaoBeanFactory">
+		<property name="packagesToScan">
+			<list>
+				<value>org.jeecgframework.web.cgreport.dao.*</value>
+				<value>org.jeecgframework.web.cgform.dao.*</value>
+				<value>org.jeecgframework.web.system.dao.*</value>
+				<value>org.jeecgframework.web.demo.dao.*</value>
+			</list>
+		</property>
+	</bean>
+</beans>
